@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechVision | Technology Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <a href="#" class="logo">
+            TechVision<span>.</span>
+        </a>
+
+        <p class="nav-text">
+            A visual collection of technology
+        </p>
+
+    </header>
+
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <p class="eyebrow">
+            DIGITAL VISUALS
+        </p>
+
+        <h1>
+            Technology <span>in every frame.</span>
+        </h1>
+
+        <p class="hero-description">
+            Explore a collection of images inspired by artificial
+            intelligence, programming, robotics, security and the
+            digital world.
+        </p>
+
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+
+        <!-- Gallery Header -->
+        <div class="gallery-header">
+
+            <div>
+                <p class="section-label">
+                    EXPLORE
+                </p>
+
+                <h2>
+                    Browse the collection
+                </h2>
+            </div>
+
+            <!-- Search -->
+            <div class="search-box">
+
+                <span>⌕</span>
+
+                <input type="text" id="searchInput" placeholder="Search images...">
+
+            </div>
+
+        </div>
+
+
+        <!-- Category Filters -->
+        <div class="filters">
+
+            <button class="filter-btn active" data-category="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-category="ai">
+                AI & ML
+            </button>
+
+            <button class="filter-btn" data-category="web">
+                Web Dev
+            </button>
+
+            <button class="filter-btn" data-category="programming">
+                Programming
+            </button>
+
+            <button class="filter-btn" data-category="robotics">
+                Robotics
+            </button>
+
+            <button class="filter-btn" data-category="security">
+                Cybersecurity
+            </button>
+
+            <button class="filter-btn" data-category="gaming">
+                Gaming
+            </button>
+
+        </div>
+
+
+        <!-- Image Count -->
+        <div class="gallery-info">
+            <span id="resultCount"></span>
+        </div>
+
+
+        <!-- Gallery -->
+        <div class="gallery" id="gallery"></div>
+
+        <p class="no-results" id="noResults">
+            No images found.
+        </p>
+
+    </section>
+
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+
+        <button class="close-btn" id="closeBtn">
+            ×
+        </button>
+
+        <button class="lightbox-btn prev-btn" id="prevBtn">
+            ←
+        </button>
+
+
+        <div class="lightbox-content">
+
+            <img id="lightboxImage" src="" alt="">
+
+            <div class="image-info">
+
+                <p id="lightboxCategory"></p>
+
+                <h2 id="lightboxTitle"></h2>
+
+                <span id="imageCounter"></span>
+
+            </div>
+
+        </div>
+
+
+        <button class="lightbox-btn next-btn" id="nextBtn">
+            →
+        </button>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 TechVision. Built with HTML, CSS & JavaScript.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
