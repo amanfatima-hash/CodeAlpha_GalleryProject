@@ -1,61 +1,61 @@
 const images = [
     {
-        src: "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+        src: "images/AI.jpg",
         title: "Artificial Intelligence",
         category: "ai"
     },
     {
-        src: "https://images.unsplash.com/photo-1555255707-c07966088b7b",
+        src: "images/Machine learning.jpg",
         title: "Machine Learning",
         category: "ai"
     },
     {
-        src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
-        title: "The World of Code",
-        category: "programming"
+        src: "images/Web Dev 1.jpg",
+        title: "The World of Web",
+        category: "web"
     },
     {
-        src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+        src: "images/Web Dev 2.jpg",
         title: "Web Development",
         category: "web"
     },
     {
-        src: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb",
+        src: "images/Programming1.jpg",
         title: "Programming Workspace",
         category: "programming"
     },
     {
-        src: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
+        src: "images/Robotics1.jpg",
         title: "Robotic Future",
         category: "robotics"
     },
     {
-        src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+        src: "images/Programming2.jpg",
         title: "Developer Setup",
         category: "programming"
     },
     {
-        src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+        src: "images/cybersecurity1.jpg",
         title: "Digital Security",
         category: "security"
     },
     {
-        src: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+        src: "images/cybersecurity2.jpg",
         title: "Data & Networks",
         category: "security"
     },
     {
-        src: "https://images.unsplash.com/photo-1542751371-adc38448a05e",
+        src: "images/gaming1.jpg",
         title: "Gaming World",
         category: "gaming"
     },
     {
-        src: "https://images.unsplash.com/photo-1593305841991-05c297ba4575",
+        src: "images/gaming2.jpg",
         title: "Next Generation Gaming",
         category: "gaming"
     },
     {
-        src: "https://images.unsplash.com/photo-1535378917042-10a22c95931a",
+        src: "images/Robotics2.jpg",
         title: "Robotics Lab",
         category: "robotics"
     }
