@@ -30,7 +30,7 @@ const images = [
         category: "robotics"
     },
     {
-        src: "images/Programming2.jpg",
+        src: "images/programming2.jpg",
         title: "Developer Setup",
         category: "programming"
     },
